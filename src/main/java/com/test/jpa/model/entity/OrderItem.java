@@ -1,5 +1,6 @@
 package com.test.jpa.model.entity;
 
+import com.test.jpa.model.entity.item.Item;
 import lombok.Getter;
 import lombok.Setter;
 

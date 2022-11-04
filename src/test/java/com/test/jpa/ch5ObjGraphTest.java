@@ -1,6 +1,6 @@
 package com.test.jpa;
 
-import com.test.jpa.model.entity.Item;
+import com.test.jpa.model.entity.item.Item;
 import com.test.jpa.model.entity.Member;
 import com.test.jpa.model.entity.Order;
 import com.test.jpa.model.entity.OrderItem;
@@ -8,8 +8,6 @@ import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
-import javax.persistence.Persistence;
 import javax.persistence.PersistenceContext;
 
 @SpringBootTest
